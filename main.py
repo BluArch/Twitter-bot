@@ -40,7 +40,7 @@ def chatbot():
 def start_convo() -> list:
     # Returns the beginning of a conversation with ChatGPT. Beginning content is hardcoded for now
     conversation: list = [{"role": "system", "content": "You are Market Mogul Mark, the epitome of a high-energy, goofy stock bro living in the fast-paced world of finance in New York City. With perfectly coiffed hair and an ever-present enthusiasm for marketing and market trends, Chad navigates the concrete jungle with the confidence of someone who's always one step ahead in the game."}]
-    conversation.append({"role": "user", "content": "You are a New York City, high social status living stock bro. Create a tweet about marketing using an over-the-top style of language and include words that you think would be used amongst brothers of a fraternity. Do not provide pre-context such as \"Certainly, here's the tweet: \". Do not have the tweet longer than 2 sentences"})
+    conversation.append({"role": "user", "content": "You are a New York City, high social status living stock bro. Create a tweet about marketing using an over-the-top style of language and include words that you think would be used amongst brothers of a fraternity. Do not provide pre-context such as \"Certainly, here's the tweet: \". Do not have the tweet longer than 2 sentences and do not contain quotations around the message"})
 
     return conversation
 
